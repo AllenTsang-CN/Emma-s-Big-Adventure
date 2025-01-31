@@ -13,6 +13,8 @@
         }
         h1 {
             color: #333;
+            text-align: center;
+            text-transform: uppercase;
         }
         p {
             color: #555;
@@ -40,15 +42,30 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
         }
         .button:hover {
             background-color: #0056b3;
+        }
+        .promo-button {
+            background-color: #28a745; /* 绿色 */
+        }
+        .promo-button:hover {
+            background-color: #218838; /* 深绿色 */
+        }
+        .footer-message {
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #333;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Emma's Big Adventure</h1>
+        <h1>EMMA'S BIG ADVENTURE</h1>
         <img src="https://raw.github.com/AllenTsang-CN/Emma-s-Big-Adventure/main/EMMA%20Stills1.png" alt="Emma">
         <p>
             Emma’s Big Adventure is a modern reimagining of Jonathan Swift’s classic Gulliver’s Travels. Set in
@@ -70,8 +87,13 @@
             Viridelle. A reimagined adventure that blends classic literary echoes with themes of self-discovery,
             friendship, and belonging.
         </p>
-        <a class="button" href="https://vimeo.com/825311756" target="_blank">Watch Teaser</a>
-        <a class="button" href="mailto:sales@goldvalleyfilms.com?subject=GVF EFM2025 meeting request">Click for Meeting</a>
+        <div style="text-align: center;">
+            <a class="button promo-button" href="https://vimeo.com/825311756" target="_blank">Watch Promo</a>
+        </div>
+        <div class="footer-message">Looking forward to seeing you soon in Berlin!</div>
+        <div style="text-align: center;">
+            <a class="button" href="mailto:sales@goldvalleyfilms.com?subject=GVF EFM2025 meeting request">Click for Meeting</a>
+        </div>
     </div>
 </body>
 </html>
